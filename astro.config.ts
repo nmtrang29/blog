@@ -13,8 +13,9 @@ import rehypeCopyCode from './src/plugins/rehype-copy-code.mjs'
 import remarkTOC from './src/plugins/remark-toc.mjs'
 import { themeConfig } from './src/config'
 import { imageConfig } from './src/utils/image-config'
+import CanvasKitInit from 'canvaskit-wasm'
 import path from 'path'
-//import netlify from '@astrojs/netlify'
+import netlify from '@astrojs/netlify'
 import cloudflare from '@astrojs/cloudflare'
 
 export default defineConfig({
