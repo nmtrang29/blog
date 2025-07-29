@@ -4,7 +4,7 @@ export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
     website: 'https://astro-chiri.netlify.app/', // Site domain
-    title: 'Taro Sago', // Site title
+    title: 'Trang Nguyen', // Site title
     author: 'Trang Nguyen', // Author name
     description: 'My blog', // Site description
     language: 'en-US' // Default language
