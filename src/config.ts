@@ -6,7 +6,7 @@ export const themeConfig: ThemeConfig = {
     website: 'https://tarosago.com/', // Site domain
     title: 'Trang Nguyen', // Site title
     author: 'Trang Nguyen', // Author name
-    description: 'My blog', // Site description
+    description: 'Writing about design', // Site description
     language: 'en-US' // Default language
   },
 
