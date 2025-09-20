@@ -1,5 +1,5 @@
 ---
-title: (Side project) Datadog in Hello Kitty theme
+title: Datadog in Hello Kitty theme
 pubDate: '2024-04-01'
 ---
 

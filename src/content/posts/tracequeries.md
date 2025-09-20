@@ -1,6 +1,6 @@
 ---
-title: (Case study) Trace Queries
-pubDate: '2025-04-12'
+title: 🔺 Datadog Trace Queries 
+pubDate: '2024-09-20'
 ---
 
 ## Concept

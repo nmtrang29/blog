@@ -1,18 +1,12 @@
 ---
-title: Animating scatterplots with Vega-Lite
-pubDate: '2025-01-15'
+title: Audio reactive posters with Processing
+pubDate: '2017-06-01'
 ---
-
-**Role**</br>Design and develop
-
-**Duration**</br>2 weeks
-
-In January 2025, I participated in an internal hackathon at Datadog and explored animating graphs directly inside Datadog dashboards using [Vega-Lite](https://vega.github.io/). 
+In December 2024, I participated in an internal hackathon at Datadog and explored animating graphs directly inside Datadog dashboards using [Vega-Lite](https://vega.github.io/). 
 
 At the time, Datadog had just rolled out support for Vega-Lite, an open-source visualization grammar that allows allows users to create graphs that are not available within the native Datadog widget and query system. I wasn't familiar with [Vega or Vega-Lite](https://en.wikipedia.org/wiki/Vega_and_Vega-Lite_visualisation_grammars) before, so this was the perfect opportunity to dive in and learn the grammar. 
 
-![Animated graphs displayed inside a Datadog dashboard](./_assets/vegalite/animated-graphs-2.gif)
-
+![Animated graphs displayed inside a Dashboard dashboard](./_assets/vegalite/animated-graphs-2.gif)
 
 ## First animation: The rain drop scatterplot 💧
 
@@ -121,6 +115,6 @@ Timing was critical as the effect only works if all graphs load simultaneously, 
 
 This project was a creative exploration of what’s possible with Vega-Lite. From falling raindrops to animated butterflies, I had so much fun learning the  grammar and seeing how far I could push animation in visualizations beyond the standard use cases. Thank you for reading!
 
-![Animated graphs displayed inside a Datadog dashboard](./_assets/vegalite/animated-graphs-2.gif)
+![Animated graphs displayed inside a Dashboard dashboard](./_assets/vegalite/animated-graphs-2.gif)
 
 

@@ -37,6 +37,9 @@ export function formatDate(date: Date, format?: string): string {
   const pad = (num: number) => String(num).padStart(2, '0')
 
   switch (formatStr) {
+    case 'YYYY':
+      return `${year}`
+
     case 'YYYY-MM-DD':
       return `${year}${separator}${pad(month)}${separator}${pad(day)}`
 
@@ -58,6 +61,7 @@ export function formatDate(date: Date, format?: string): string {
 }
 
 export const SUPPORTED_DATE_FORMATS: readonly DateFormat[] = [
+  'YYYY',
   'YYYY-MM-DD',
   'MM-DD-YYYY',
   'DD-MM-YYYY',
