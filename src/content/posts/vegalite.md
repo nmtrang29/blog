@@ -1,5 +1,5 @@
 ---
-title: (Side project) Animating scatterplots with Vega-Lite
+title: (Side project) posAnimating scatterplots with Vega-Lite
 pubDate: '2025-01-15'
 ---
 In December 2024, I participated in an internal hackathon at Datadog and explored animating graphs directly inside Datadog dashboards using [Vega-Lite](https://vega.github.io/). 
