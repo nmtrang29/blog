@@ -6,15 +6,15 @@ export const themeConfig: ThemeConfig = {
     website: 'https://tarosago.com/', // Site domain
     title: 'Trang Nguyen', // Site title
     author: 'Trang Nguyen', // Author name
-    description: 'Writing about design', // Site description
+    description: 'Portfolio', // Site description
     language: 'en-US' // Default language
   },
 
   // GENERAL SETTINGS ////////////////////////////////////////////////////////////////////////////////////
   general: {
-    contentWidth: '40rem', // Content area width
+    contentWidth: '46rem', // Content area width
     centeredLayout: true, // Use centered layout (false for left-aligned)
-    themeToggle: false, // Show theme toggle button (uses system theme by default)
+    themeToggle: true, // Show theme toggle button (uses system theme by default)
     postListDottedDivider: false, // Show dotted divider in post list
     footer: true, // Show footer
     fadeAnimation: true // Enable fade animations
@@ -22,7 +22,7 @@ export const themeConfig: ThemeConfig = {
 
   // DATE SETTINGS ///////////////////////////////////////////////////////////////////////////////////////
   date: {
-    dateFormat: 'DD-MM-YYYY', // Date format: YYYY-MM-DD, MM-DD-YYYY, DD-MM-YYYY, MONTH DAY YYYY, DAY MONTH YYYY
+    dateFormat: 'YYYY-MM-DD', // Date format: YYYY-MM-DD, MM-DD-YYYY, DD-MM-YYYY, MONTH DAY YYYY, DAY MONTH YYYY
     dateSeparator: '.', // Date separator: . - / (except for MONTH DAY YYYY and DAY MONTH YYYY)
     dateOnRight: true // Date position in post list (true for right, false for left)
   },
