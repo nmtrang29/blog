@@ -9,6 +9,9 @@ As part of an internal company hackathon, I reimagined the Datadog branding thro
 
 ![Concept: Datadog UI in Hello Kitty theme](./_assets/hellokitty/datadog-hello-kitty.gif)
 
+![Before: Query Editor UI](./_assets/hellokitty/queryeditor1.png)
+
+![After: Query Editor UI in Hello Kitty theme](./_assets/hellokitty/queryeditor2.png)
 
 ![The details: Sad and happy HTTP status code pills](./_assets/hellokitty/statuscode.png)
 
@@ -20,9 +23,4 @@ As part of an internal company hackathon, I reimagined the Datadog branding thro
 
 The response was overwhelming: everyone smiled when they saw it. Many said it actually made them want to spend more time in Datadog, with some even suggesting that this theme could boost morale and productivity if adopted more broadly. One coworker printed the assets as stickers, which quickly spread across laptops in the office.
 ![Team's reaction](./_assets/hellokitty/reaction.png)
-
-![Logo designed by  my teammate, Jennifer Whyte](./_assets/hellokitty/logo.png)
-
-
-![Before After](./_assets/hellokitty/beforeafter.png)
 
