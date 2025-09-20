@@ -3,9 +3,26 @@ title: Datadog in Hello Kitty theme
 pubDate: '2024-07-28'
 ---
 
-## Header
+## Concept
 
-Text
+As part of an internal company hackathon, I reimagined the Datadog branding through a playful lens. The UI featured soft pastel color palettes, HelloKitty-themed lighthearted animation, offering a stark and refreshing contrast to the typical look and feel from observability tools.
 
-![Falling raindrops scatterplot](./_assets/hellokitty/hellokitty1.gif)
-![Falling raindrops scatterplot](./_assets/vegalite/vegalite-13.gif)
+![Concept: Datadog UI in Hello Kitty theme](./_assets/hellokitty/datadog-hello-kitty.gif)
+
+
+![The details: Sad and happy HTTP status code pills](./_assets/hellokitty/statuscode.png)
+
+![Map tooltip](./_assets/hellokitty/maptooltip.gif)
+
+![Loading state](./_assets/hellokitty/loading.gif)
+
+## The response
+
+The response was overwhelming: everyone smiled when they saw it. Many said it actually made them want to spend more time in Datadog, with some even suggesting that this theme could boost morale and productivity if adopted more broadly. One coworker printed the assets as stickers, which quickly spread across laptops in the office.
+![Team's reaction](./_assets/hellokitty/reaction.png)
+
+![Logo designed by  my teammate, Jennifer Whyte](./_assets/hellokitty/logo.png)
+
+
+![Before After](./_assets/hellokitty/beforeafter.png)
+
