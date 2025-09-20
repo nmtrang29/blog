@@ -3,9 +3,9 @@ title: Slack Emoji generator
 pubDate: '2024-04-12'
 ---
 
-::link{url="https://bufo-generator.pages.dev/"}
+A fun little website I built for generating custom Bufo slack emojis. I manually created the assets and vibecoded this in Cursor over a couple of days.
 
-A fun little website I built for generating custom Bufo slack emojis. I manually created the assets and vibecoded this using Cursor in a couple of days.
+::link{url="https://bufo-generator.pages.dev/"}
 
 ### About Bufo / Froge 
 "Bufo also known as Froge or Concerned Frog refers to a set of Discord emotes of a worried or concerned frog expressing various emotions, similar to Pepe emotes. The frog image comes from the now-inactive mobile game Froge, released in 2014 by Fandom Inc. and became popularized as a set of Discord emotes starting in 2020. In 2023, a Froge ChatGPT plugin launched ([source](https://knowyourmeme.com/memes/froge-worry-frog))."
@@ -32,7 +32,7 @@ The team _loved_ it. Chat exploded with reactions like:
 - “Omg I can finally be seen”
 -  “Why is Trang always giving us the content we never knew we wanted but absolutely need?”
 
-The team immediately started engaging and building on the idea. The Emoji generator turned out to be more than a fun experiment. It showed how thoughtful details, humor and personality in our tools can create a sense of community and evoke positive emotions. People remember how the tool makes them feel, not just what it does. While this started as a one-off experiment, it got me thinking about how we can build more expressive, human-centered moments into our internal and external products.
+People immediately started engaging with the idea, sharing jokes, building on it, and even referencing my previous hackathon projects.  What started as a small, goofy experiment turned into something that genuinely resonated. It was a reminder that thoughtful details, humor, and personality in tools can spark joy and build community. People don’t just remember what a tool does, they remember how it made them *feel*. 
 
 ![Screenshots of team's reaction](./_assets/bufo/reaction.png)
 
