@@ -35,8 +35,6 @@ Text [link](https://github.com/knobiknows/all-the-bufo/blob/main/index.md)
 
 ## Final Results
 
-![UI](./_assets/bufo/ui.gif)
-
 Text
 
 ![Datadog UI in Bufo theme](./_assets/bufo/theme.gif)
