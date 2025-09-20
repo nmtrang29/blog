@@ -1,5 +1,5 @@
 ---
-title: Creative coding experiments
+title: Machine Learning experiments
 pubDate: '2019-04-01'
 ---
 
