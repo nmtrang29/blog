@@ -7,11 +7,11 @@ In 2023, I led the design of [Trace Queries](https://www.datadoghq.com/blog/trac
 
 ##### Impact
 - Successfully launch a major initiative for APM, a $500M ARR business for Datadog
-- Achieving from <mark>0 to over 40,000</mark> monthly active users a few months after GA.
+- Achieving from <mark>0 to over 40,000 monthly active users</mark> within months after GA.
 
-##### Role
+##### Scope
 -  I owned the entire design life cycle including research, strategy, design execution and user evaluation.
-- The team consists of over 30 people including PM, TPM, Staff+ Engineers, and Engineering Managers. Before launch, the work went through multiple rounds of review by VPs of Engineering, Product, and Design.
+- The team consists of over 30 people including PM, TPM, Senior and Staff+ Engineers, and Engineering Managers. Before launch, the work went through multiple rounds of review by VPs of Engineering, Product, and Design.
 
 ##### Timeline
 - 6 months from conception to private beta 
