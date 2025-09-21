@@ -51,12 +51,15 @@
 html.light {
   --bg: #e5e5e5;
   --text-primary: rgba(0, 0, 0, 0.85);
+  --text-link: rgba(32, 45, 118, 0.72);
   --text-secondary: rgba(0, 0, 0, 0.4);
   --text-tertiary: rgba(0, 0, 0, 0.24);
   --border: rgba(0, 0, 0, 0.1);
   --selection: rgba(0, 0, 0, 0.08);
   --code-bg: rgba(0, 0, 0, 0.04);
   --mark: #dae1c4;
+
+  
 
   /* Syntax Theme  */
   --astro-code-foreground: rgba(0, 0, 0, 0.85);
@@ -76,6 +79,7 @@ html.light {
 html.dark {
   --bg: #000;
   --text-primary: rgba(255, 255, 255, 0.72);
+  --text-link: rgb(167, 198, 250);
   --text-secondary: rgba(255, 255, 255, 0.4);
   --text-tertiary: rgba(255, 255, 255, 0.24);
   --border: rgba(255, 255, 255, 0.1);
