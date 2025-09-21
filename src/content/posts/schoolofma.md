@@ -1,5 +1,5 @@
 ---
-title: Machine Learning experiments
+title: ML & Creative Coding projects
 pubDate: '2019-04-01'
 ---
 
@@ -31,16 +31,35 @@ Audio transcripts (Vietnamese to English):
 
 ::link{url="https://youtu.be/L3PLmjyZy0E"}
  
+---
+
 ## People with My Name
 I google-searched my own name and scraped the first 500 image results. From those, I cropped out faces and used [t-SNE](https://lvdmaaten.github.io/tsne/) for dimensionality reduction to cluster similar images. It’s worth noting that Trang Nguyen is a fairly common Vietnamese name. 
 
 This project was made possible using [Aarón Montoya-Moraga](https://github.com/montoyamoraga)’s Google Images scraping tool
  and [Andreas Refgaard](https://www.andreasrefsgaard.dk/)’s face-cropping sketch in Processing.
 
-![_](./_assets/schoolofma/myname-1.jpg)
 ![_](./_assets/schoolofma/myname-2.jpg)
+
+---
 
 ## Git Song
 I turned my [GitHub contribution graph](https://github.com/topics/contribution-graph) into music. As time moves forward, notes play to represent daily contributions; the more contributions, the higher and louder the note. The data is mapped across 3 octaves, starting from octave 4, and the sound is generated with [Sonic Pi](https://sonic-pi.net/).
 
 ::link{url="https://youtu.be/R-gS9AFVL1o"}
+
+---
+
+## Audio Reactive Visuals
+A series of audio reactive posters I created for [Midlight](https://soundcloud.com/midlight/) using Processing. Original static visuals designed by [Studio Naam](https://studionaam.com/).
+
+![](./_assets/midlight/midlight-2.gif)
+![](./_assets/midlight/midlight-5.gif)
+![](./_assets/midlight/midlight-6.gif)
+
+---
+
+![](./_assets/midlight/midlight-4-1.gif)
+![](./_assets/midlight/midlight-4-2.gif)
+![](./_assets/midlight/midlight-4-3.gif)
+![](./_assets/midlight/midlight-4-0.gif)
