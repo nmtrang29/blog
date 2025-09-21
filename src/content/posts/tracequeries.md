@@ -1,10 +1,42 @@
 ---
-title: 🔺 Datadog Trace Queries 
-pubDate: '2024-09-20'
+title: 🔺 Datadog APM 
+pubDate: '2025-09-20'
 ---
+
+Since joining the APM team in February 2023, I have 
+
+
+
+## Latency Investigation (2025, Private Beta) 
+
+![_](./_assets/tracequeries/investigator2.png)
+
+![_](./_assets/tracequeries/investigator3.png)
+
+**🎥 Live Demo**
+
+::link{url="https://www.youtube.com/live/FW8_RoDxnpc?feature=shared&t=1948"}
+
+---
+
+## Change Tracking (2024, GA)
+
+Text about the project
+
+**🎥 Live Demo**
+::link{url="https://www.youtube.com/live/ZMNXNH-kJAM?feature=shared&t=4840"}
+
+![_](./_assets/tracequeries/changetracking1.gif)
+
+![_](./_assets/tracequeries/changetracking2.png)
+
+---
+
+## Trace Queries (2023-2024, GA)
+
 ![_](./_assets/tracequeries/3.png)
 
-In 2023-2024, I led the design of [Trace Queries](https://www.datadoghq.com/blog/trace-queries/), a product that expanded the analytical power of distributed tracing in Datadog. It unlocked entirely new capabilities, enabling users to query traces based on service relationships, end-to-end latency thresholds, and other complex conditions that were previously impossible to express.
+I led the design of [Trace Queries](https://www.datadoghq.com/blog/trace-queries/), a product that expanded the analytical power of distributed tracing in Datadog. It unlocked entirely new capabilities, enabling users to query traces based on service relationships, end-to-end latency thresholds, and other complex conditions that were previously impossible to express.
 
 ##### Impact
 - Launched a major addition to APM, a $500M ARR business for Datadog.
@@ -61,12 +93,13 @@ One key activity during this phase was a user story mapping exercise, which we r
 
 ## Outcome
 
-##### Live demo
-::link{url="https://www.youtube.com/live/GjcLWupY0jk?t=3574s"}
-
 ##### Onboarding 
 ![Example queries included in the UI based on common use cases reported by customers](./_assets/tracequeries/8.png)
 ![Tooltip interaction](./_assets/tracequeries/9.gif)
 
 ## Outcome
 ![_](./_assets/tracequeries/12.png)
+
+**Live Demo**
+::link{url="https://www.youtube.com/live/GjcLWupY0jk?t=3574s"}
+
