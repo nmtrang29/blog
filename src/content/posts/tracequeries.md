@@ -1,48 +1,72 @@
 ---
 title: 🔺 Datadog Trace Queries 
-pubDate: '2023-09-20'
+pubDate: '2024-09-20'
 ---
+![_](./_assets/tracequeries/3.png)
 
-In 2023, I led the design of [Trace Queries](https://www.datadoghq.com/blog/trace-queries/), a product that significantly improves the analytical capability of distributed traces.
+In 2023-2024, I led the design of [Trace Queries](https://www.datadoghq.com/blog/trace-queries/), a product that expanded the analytical power of distributed tracing in Datadog. It unlocked entirely new capabilities, enabling users to query traces based on service relationships, end-to-end latency thresholds, and other complex conditions that were previously impossible to express.
 
 ##### Impact
-- Successfully launch a major initiative for APM, a $500M ARR business for Datadog
-- Achieving from <mark>0 to over 40,000 monthly active users</mark> within months after GA.
+- Launched a major addition to APM, a $500M ARR business for Datadog.
+- Growing the product from <mark>0 to over 45,000 monthly active users</mark> within one year after GA.
 
-##### Scope
--  I owned the entire design life cycle including research, strategy, design execution and user evaluation.
-- The team consists of over 30 people including PM, TPM, Senior and Staff+ Engineers, and Engineering Managers. Before launch, the work went through multiple rounds of review by VPs of Engineering, Product, and Design.
+##### Scope & Team 
+- Led the entire design process, including strategy, user research, design execution, and post-launch evaluation. 
+- Collaborated closely with a cross-functional team of 30+ including PMs, TPMs, Senior/Staff+ Engineers, and Engineering Managers.
+- The work underwent multiple rounds of review with VPs of Engineering, Product, and Design prior to launch
 
 ##### Timeline
-- 6 months from conception to private beta 
-- 4 months from private beta to public release 
-
-### Watch the live demo
-::link{url="https://www.youtube.com/live/GjcLWupY0jk?t=3574s"}
+- 6 months from concept to private beta 
 
 <!-- ::link{url="https://www.datadoghq.com/blog/trace-queries/"} -->
 
-## Problem: It’s hard to find the right trace
-A real-life example: In Jan 2023, Datadog customers reported that the UI failed to load traces, which means that there are issues with this path.
+## Why add Trace Queries?
+Distributed traces hold a wealth of information, but finding the right ones as part of the troubleshooting process can feel like searching for a needle in a haystack.
 
-With the query language at the time, you can’t express structure. The UI only allows you to users to write this query, which means traces you do not need would also show up in the results. 
-```
-text
-```
+In January 2023, Datadog customers reported that the UI failed to load traces, pointing to issues somewhere along the request path:
 
-> Datadog have the data but users cannot query for it. They cannot query for a specific sequence of events based on the relationship between spans.
+![_](./_assets/tracequeries/4.png)
 
+To debug the issue, you'd need to express a query like "Find traces that passed through both `web-ui` and `trace-query`, where `trace-query` returned an error."
+
+At the time, Datadog’s query language couldn’t express this structure. The UI only allows you to users to write `service:trace-query status:error`, which returned many irrelevant results. While the data existed, there was no way to query based on span relationships:
+
+![Datadog has the data but users cannot query for it](./_assets/tracequeries/5.png)
+
+Users faced similar challenges when trying to answer questions like:
 - Which errors in trace-query service result in an upstream errors?
 - Upstream service calls grouped by service
 - Downstream service calls with high latency
 - Traces where one service calls another more than 10 times
 
-Workarounds (inject spans to get more info, resort to logs, keep browsing...) are manual and time-consuming.
+The usual workarounds (inject spans to get more information, resort to logs, keep browsing...) are manual, time-consuming, and often hitting cardinality limits.
 
-## Solution:
-A new query language that can express more complex questions
 
-- Structural operators (child & descendant) `->` `=>` 
-- Logical operators `and` `or` `not`	
-- Aggregations `span_count()` 
-- E2E traces `trace_duration`
+## Process
+With the need for a new language that can express more complex questions, I kicked off the project with an intensive exploration phase focused on understanding pain points. Examples of use cases that were collected from customers during this phase:
+
+> Monitor an end-to-end request availability (with multiple points of failure) and not individual services’ availability (Indeed).
+
+> Identify relevant traces when the information is spread across
+multiple spans from the same request (Mercedes-Benz).
+
+Armed with insights and a list of clients that were willing to give us feedback along the way, I began translating their needs into concrete concepts, sketching initial user flows and interactions using Excalidraw. This low-fidelity prototyping allowed for rapidly iterating without getting bogged down in details too early.
+
+![_](./_assets/tracequeries/10.png)
+![_](./_assets/tracequeries/14.png)
+
+One key activity during this phase was a user story mapping exercise, which we ran over multiple rounds to align on the scope, priorities, and a shared vision of what we committed to build.
+
+![_](./_assets/tracequeries/9.png)
+
+## Outcome
+
+##### Live demo
+::link{url="https://www.youtube.com/live/GjcLWupY0jk?t=3574s"}
+
+##### Onboarding 
+![Example queries included in the UI based on common use cases reported by customers](./_assets/tracequeries/8.png)
+![Tooltip interaction](./_assets/tracequeries/9.gif)
+
+## Outcome
+![_](./_assets/tracequeries/12.png)
