@@ -10,7 +10,7 @@ In August 2018, I took part in an intensive 4-week full-time course on creative 
 During the course, we learned about:
 - Various types of supervised ML (classification, regression and dynamic time wrapping) using [ml5.js](https://ml5js.org/)
 - Sending and receiving OSC messages via [Wekinator](http://www.wekinator.org/) using Processing and Openframeworks to create interactive applications
-- Generative models. Preparing datasets and training custom models on [Paperspace](https://www.paperspace.com/)
+- Generative models. Preparing datasets and training custom models using [Paperspace](https://www.paperspace.com/)
 
 Here are some of the experiment from that course and the year that followed:
 
@@ -32,7 +32,7 @@ Audio transcripts (Vietnamese to English):
 ::link{url="https://youtu.be/L3PLmjyZy0E"}
  
 ## People with My Name
-I google-searched my own name and scraped the first 500 image results. From those, I cropped out faces and used [t-SNE](https://lvdmaaten.github.io/tsne/) for dimensionality reduction to cluster similar images. It’s worth noting that I have a fairly common Vietnamese name, which made the results especially interesting.
+I google-searched my own name and scraped the first 500 image results. From those, I cropped out faces and used [t-SNE](https://lvdmaaten.github.io/tsne/) for dimensionality reduction to cluster similar images. It’s worth noting that Trang Nguyen is a fairly common Vietnamese name. 
 
 This project was made possible using [Aarón Montoya-Moraga](https://github.com/montoyamoraga)’s Google Images scraping tool
  and [Andreas Refgaard](https://www.andreasrefsgaard.dk/)’s face-cropping sketch in Processing.
@@ -41,6 +41,6 @@ This project was made possible using [Aarón Montoya-Moraga](https://github.com/
 ![_](./_assets/schoolofma/myname-2.jpg)
 
 ## Git Song
-I turned my GitHub contribution graph into music. As time moves forward, notes play to represent daily contributions; the more contributions, the higher and louder the note. The data is mapped across 3 octaves, starting from octave 4, and the sound is generated with [Sonic Pi](https://sonic-pi.net/).
+I turned my [GitHub contribution graph](https://github.com/topics/contribution-graph) into music. As time moves forward, notes play to represent daily contributions; the more contributions, the higher and louder the note. The data is mapped across 3 octaves, starting from octave 4, and the sound is generated with [Sonic Pi](https://sonic-pi.net/).
 
 ::link{url="https://youtu.be/R-gS9AFVL1o"}

@@ -1,5 +1,5 @@
 ---
-title: 🔺 Datadog APM 
+title: Datadog APM 
 pubDate: '2025-09-20'
 ---
 
