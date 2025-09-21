@@ -43,6 +43,11 @@
   margin-bottom: 0
 }
 
+.prose h5 {
+  margin-bottom: 0.75rem;
+  margin-top: 2rem;
+}
+
 
 /* Bold text */
 .prose strong,
