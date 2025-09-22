@@ -1,31 +1,38 @@
 ---
-title: Datadog APM 
+title: Datadog APM
 pubDate: '2025-09-20'
 ---
 
-Application Performance Monitoring (APM) is a core product offering from Datadog, generating over $500M ARR for the company. Since joining the team in 2022, I have been leading the design of some of APM’s most valuable initiatives. 
+Application Performance Monitoring (APM) is a core product offering from Datadog, generating $500M ARR for the company. Since joining the team in 2022, I have been leading product design of some of APM’s most valuable initiatives, including [Trace Queries (2023-2024)](https://www.youtube.com/live/GjcLWupY0jk?t=3574s), [Change Tracking (2024)](https://www.youtube.com/live/ZMNXNH-kJAM?feature=shared&t=4840), [Recommendations (2025)](https://www.youtube.com/live/FW8_RoDxnpc?feature=shared&t=2092), and most recently, [Latency Investigator (2025)](https://www.youtube.com/live/FW8_RoDxnpc?feature=shared&t=1948). 
 
-My live design work was showcased at [Dash by Datadog conference](https://www.dashcon.io/) 3 years in a role, including [Trace Queries (2023-2024)](https://www.youtube.com/live/GjcLWupY0jk?t=3574s), [Change Tracking (2024)](https://www.youtube.com/live/ZMNXNH-kJAM?feature=shared&t=4840), [Recommendations (2025)](https://www.youtube.com/live/FW8_RoDxnpc?feature=shared&t=2092), and [Latency Investigator (2025)](https://www.youtube.com/live/FW8_RoDxnpc?feature=shared&t=1948). Since the public launch in 2024, the team and I have grown [Trace Queries](url="https://www.datadoghq.com/blog/trace-queries/) from <mark>0 to over 45,000 monthly active users</mark>.
+Since the launch in 2024, I have grown Trace Queries from <mark>0 to over 45,000 monthly active users (72% of all Datadog APM users)</mark> within one year after GA.
 
-Across the team, I'm known for consistently taking complex and ambiguous product ideas to key workflows that ship. These are all projects that require deep technical knowledge, cross-team coordination, and challenging stakeholder management. 
+Across the team, I'm known for consistently taking complex and ambiguous product ideas to key workflows that ship in production. These are all projects that require deep technical knowledge, cross-team coordination, and challenging stakeholder management.  
 
+---
 
-
-
-## Latency Investigation (2025, Private Beta) 
-
-In December 2024, I proposed a product initiative to address a common customer pain point: difficulty in discovering and using the right tools within Datadog to troubleshoot latency issues. The idea was later adopted as a formal OKR and became one of APM’s flagship projects for the year. It was [showcased](https://www.youtube.com/live/FW8_RoDxnpc?t=1948s) at the company's conference  and continues to be developed by a dedicated squad as of Q4 2025.
-
-##### Scope & Impact
-- Led the design strategy and execution from initial concept to private beta launch
-- Successfully demoed publicly, ranking 3rd out of 42 new features in customer interest
-- Over 2,000 investigations were initiated in the past month, a strong signal of adoption, especially given the feature is in private beta and limited to just 232 organizations
-
-
-##### Timeline
-- 6 months from concept to private beta 
+## AI Latency Investigation (2025) 
 
 ![_](./_assets/tracequeries/investigator2.png)
+
+In December 2024, I proposed a product initiative to address a common customer pain point: difficulty in troubleshooting latency issue, despite Datadog having the right tools. I authored the initial concept document, which was later tuned into as a formal OKR and became the APM flagship project for the year. 
+
+After a successful public demo, the project continues to be developed by a dedicated squad as of Q4 2025, focusing on improving the accuracy of the AI agent's output. 
+
+##### Impact
+- Became the <mark>#1 requested feature</mark> (out of 42) following the company’s annual announcement
+- Over 2,000 investigations were initiated in the past month, a strong signal of adoption, despite being in private beta, limited to 232 organizations
+- The initiative was made possible by foundational features I had designed the previous year, including [Tag Analysis](https://www.datadoghq.com/blog/tag-analysis/) and [Trace Groups](https://docs.datadoghq.com/tracing/trace_explorer/query_syntax/#trace-groups).
+
+##### Scope & Team
+- Led the entire design process end-to-end of a high-ambiguity, cross-team initiative from concept to private beta
+- Collaborated closely with a cross-functional team of 15 people including PMs, Senior/Staff+ Engineers, Managers and Directors.
+
+
+##### Milestones
+- 6 months from concept to private beta 
+
+![_](./_assets/latency/latency2.png)
 
 ![_](./_assets/tracequeries/investigator3.png)
 
@@ -35,37 +42,44 @@ In December 2024, I proposed a product initiative to address a common customer p
 
 ---
 
-## Proactive Recommendations (2025, Private Beta)
+## Datadog Recommendations (2025)
 
-In 2025, I led the design and research of  Recommendations, introducing a proactive and personalized user flow, a major shift from the previous reactive model.
+In 2025, I led the design of Datadog Recommendations, shifting the experience from a reactive model to a more proactive and personalized user flow.
 
-##### Scope & Impact
-- Led design from early concept to private beta launch
-- Successfully demoed publicly, ranking 8th out of 42 new features in customer interest
-- The framework designed was later adopted by other product teams, accelerating the development of their recommendations. Contributed to the Datadog’s guidelines for insights and recommendations.
-- Led workshops across teams (Database Monitoring, Profiling, Change Tracking) to ensure a consistent UX and design language across the platform.
+##### Impact 
+- <mark>Something about the research</mark>
+- I facilitated workshops with teams across Database Monitoring, Profiling, and Change Tracking to drive consistency in UX across the platform.
+- The framework I developed was later adopted by other product teams, accelerating their ability to build recommendations and shaping Datadog’s broader guidelines for insights and recommendations.
 
+##### Scope & Team
+- Owned the end-to-end design process, from research and strategy to execution. 
+- Collaborated closely with a core team of 5, while partnering with multiple product teams to align on recommendation priorities, state management, and data quality.
+
+![_](./_assets/recc/1.png)
+![_](./_assets/recc/2.png)
+![_](./_assets/recc/3.png)
 **🎥 Live Demo**
 
 ::link{url="https://www.youtube.com/live/FW8_RoDxnpc?feature=shared&t=2092"}
 
 ---
 
-## Trace Queries (2023-2024, GA)
+## Trace Queries (2023-2024)
 
-Between 2023 and 2024,I led the design of [Trace Queries](https://www.datadoghq.com/blog/trace-queries/), a product that expanded the analytical power of distributed tracing in Datadog. It unlocked entirely new capabilities, enabling users to query traces based on service relationships, end-to-end latency thresholds, and other complex conditions that were previously impossible to express.
+Between 2023 and 2024, I led the design of [Trace Queries](https://www.datadoghq.com/blog/trace-queries/), a product that expanded the analytical power of distributed tracing in Datadog. It unlocked entirely new capabilities, enabling users to query traces based on service relationships, end-to-end latency thresholds, and other complex conditions that were previously impossible to express.
 
 ##### Impact
-- Launched a major addition to APM
-- Growing the product from <mark>0 to over 45,000 monthly active users</mark> within one year after GA
+- Launched a major addition to APM, a $500M ARR business for Datadog.
+- Growing the product from <mark>0 to over 45,000 monthly active users (72% of all Datadog APM users)</mark> within one year after GA 
 
 ##### Scope & Team 
-- Led the entire design process, including strategy, user research, design execution, and post-launch evaluation. 
+- Led the entire design process end-to-end, including strategy, user research, design execution, and post-launch evaluation. 
 - Collaborated closely with a cross-functional team of 30+ including PMs, TPMs, Senior/Staff+ Engineers, and Engineering Managers.
 - The work underwent multiple rounds of review with VPs of Engineering, Product, and Design prior to launch
 
-##### Timeline
-- 1 year from concept to public launch 
+##### Milestones
+- 6 months from concept to private beta
+- 5 months from private beta to GA 
 
 <!-- ::link{url="https://www.datadoghq.com/blog/trace-queries/"} -->
 
@@ -114,4 +128,3 @@ One key activity during this phase was a user story mapping exercise, which we r
 
 **🎥 Live Demo**
 ::link{url="https://www.youtube.com/live/GjcLWupY0jk?t=3574s"}
-
