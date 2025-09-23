@@ -1,14 +1,14 @@
 ---
 title: Side projects (AI/ML & creative coding)
-pubDate: '2021-04-01'
+pubDate: '2025-04-01'
 ---
 
-Outside of design, I enjoy using code as a medium for creative expression and experimentation. In my work, I often take a playful, sometimes naive approach to digital tools, mixing inputs and outputs in unconventional ways. Below are some of my favorite projects since 2018.
+Outside of design, I enjoy using code as a medium for creative expression and experimentation, often taking a playful approach, using tools in unconventional ways. Below are some of my favorite projects since 2018.
 
 ---
 
 ##### Study with Me, 2018
-I made this app for my sister to help her stay focused during exam season. Inspired by the [‘Study With Me’ video series](https://www.youtube.com/watch?v=1ex_bNIFR1A) on YouTube, the application plays a 1-hour video of someone quietly studying. It can detect when my sisters look away, and will nag her whenever she gets distracted.
+I made this app for my sister to help her stay focused during exam season. Inspired by the [‘Study With Me’ video series](https://www.youtube.com/watch?v=1ex_bNIFR1A) on YouTube, the application plays a 1-hour video of someone quietly studying. It can detect when my sister look away, and will nag her whenever she gets distracted.
 
 **Tools**</br>
 Wekinator, Processing, OpenCV
@@ -21,19 +21,20 @@ Audio transcripts (Vietnamese to English):
 - Đã bảo rồi đừng có mất tập trung nữa _I told you so, focus!_
 
 ::link{url="https://youtu.be/L3PLmjyZy0E"}
- 
+![_](./_assets/schoolofma/studywithme.png) 
+
 ---
 
 ##### Art-DCGAN, 2018
-Using [Robbie Barrat's art-DCGAN](https://github.com/robbiebarrat/art-DCGAN), a modified implementation of DCGAN focused on generative art, I trained my own model on a dataset of 1700 Ukiyo-e paintings scraped from [Wikiart](https://www.wikiart.org/en/paintings-by-style/ukiyo-e?select=featured).
+Using [Robbie Barrat's art-DCGAN](https://github.com/robbiebarrat/art-DCGAN), a modified implementation of DCGAN focused on generative art, I trained my own model on a dataset of 1,700 Ukiyo-e paintings scraped from [Wikiart](https://www.wikiart.org/en/paintings-by-style/ukiyo-e?select=featured).
 
 ![_](./_assets/schoolofma/epoch700.png)
 
 ---
 
 ##### People with My Name, 2018
-I google-searched my full name and scraped the first 500 image results. From those, I cropped out faces and used [t-SNE](https://lvdmaaten.github.io/tsne/) for dimensionality reduction to cluster similar images. It’s worth noting that Trang Nguyen is a fairly common Vietnamese name. Made possible using [Aarón Montoya-Moraga](https://github.com/montoyamoraga)’s Google Images scraping tool
- and [Andreas Refgaard](https://www.andreasrefsgaard.dk/)’s face-cropping Processing tool.
+I google-searched my full name and scraped the first 500 image results. From those, I cropped out faces and used [t-SNE](https://lvdmaaten.github.io/tsne/) for dimensionality reduction to cluster similar images. It’s worth noting that Trang Nguyen is a fairly common Vietnamese name. I made this with [Aarón Montoya-Moraga](https://github.com/montoyamoraga)’s Google Images scraping tool
+ and [Andreas Refsgaard](https://www.andreasrefsgaard.dk/)’s face-cropping Processing tool.
 
 **Tools**</br>
 Processing, t-SNE
@@ -53,7 +54,7 @@ I turned my [GitHub contribution graph](https://github.com/topics/contribution-g
 ---
 
 ##### Audio Reactive Visuals, 2018
-A series of audio reactive posters I created for [Midlight](https://soundcloud.com/midlight/) using Processing. Original static visuals designed by [Studio Naam](https://studionaam.com/).
+A series of audio-reactive posters I created for [Midlight](https://soundcloud.com/midlight/) using Processing. The original static visuals were designed by [Studio Naam](https://studionaam.com/).
 
 **Tools**</br>
 Processing
@@ -71,24 +72,45 @@ A filter I developed in Spark AR as part of the Meta's Spark AR Hackathon Berlin
 **Tools**<br>
 Spark AR
 
-![Presenting my project at the Meta's Spark AR Hackathon in Berlin](./_assets/schoolofma/sparkar_hackathon_pic.jpg)
+![Presenting my project at Meta's Spark AR Hackathon in Berlin](./_assets/schoolofma/sparkar_hackathon_pic.jpg)
 
 ---
 
-##### P5.js Posenet as MIDI Controller, 2020 
-Control Ableton Live with your hands. Made with PoseNet, a ML model that allows for real-time human pose estimation by finding different points on your body and face. [See demo video](https://vimeo.com/331012711?fl=pl&fe=sh).
+
+##### AV Performance, 2019
+In 2019, I took a 2-month VJ course using [Resolume](https://www.resolume.com/), and as part of the graduation show, I performed a live AV show at [Public Art Lab](https://www.publicartlab-berlin.de/).
+
+
+**Tools**<br>
+Resolume
+
+::link{url="https://www.youtube.com/watch?v=l3Yla2WUaiw"}
+
+![_](./_assets/schoolofma/resolume.jpg)
+
+
+---
+
+##### P5.js PoseNet as MIDI Controller, 2020 
+Control Ableton Live with your hands. Built with PoseNet, a machine learning model that enables real-time human pose estimation by detecting key points on the body and face. [See demo video](https://vimeo.com/331012711?fl=pl&fe=sh).
 
 **Tool**<br>
-Ableton, poseNet, p5.js
+Ableton Live, PoseNet
 
 ![](./_assets/schoolofma/posenet.gif)
 
 ---
 
-##### Ceramics, 2021-2023
+##### Visualisation for Spectral Resonator, 2022
 
-Shifted my focus from working with the computer to working with my hands between 2021 and 2023. My favourite project has been building these little chair sculptures.
-![_](./_assets/schoolofma/chairs.png)
+An alternative visualisation I built for [Spectral Resonator](https://www.ableton.com/en/blog/spectral-sound-a-look-at-live-11s-new-spectral-devices/). 
+
+**Tools**</br>
+Processing
+
+
+![_](./_assets/schoolofma/transmute_02.gif)
+![_](./_assets/schoolofma/transmute_03.gif)
 
 ---
 
@@ -96,8 +118,9 @@ Shifted my focus from working with the computer to working with my hands between
 ##### Datadog Hello Kitty Theme, 2024
 Wanting a refreshing departure from Datadog's traditional utilitarian look and feel, I gave the UI a makeover. This Hello Kitty theme introduced a soft pastel color palette, rounded corners and playful animations everywhere! 
 
-**Tools**</br>
-Figma
+**Tools**<br>
+Figma, Giphy
+
 
 ![_](./_assets/hellokitty/datadog-hello-kitty.gif)
 
@@ -107,12 +130,14 @@ Figma
 
 **Bufo Emoji Generator, 2025** <br>
 
-A fun little website I built for generating custom [Bufo](https://knowyourmeme.com/memes/froge-worry-frog) slack emojis. I manually created the assets and vibecoded this in Cursor over a couple of days. [Check it out](https://bufo-generator.pages.dev/).
+A fun little website I built for generating custom [Bufo](https://knowyourmeme.com/memes/froge-worry-frog) Slack emojis. I manually created the assets and vibe-coded this in Cursor over a couple of days. [Check it out](https://bufo-generator.pages.dev/).
 
 **Tools**</br>
 Figma, Cursor
 
 ::link{url="https://bufo-generator.pages.dev/"}
+
+![](./_assets/schoolofma/bufo.png)
 
 ---
 
@@ -150,7 +175,7 @@ And voilà, animated rain. [View code.](https://vega.github.io/editor/#/url/vega
 
 ![_](./_assets/vegalite/vegalite-13.gif)
 
-After that, I created other animations using similar principles with different functions, using [Graphtoy](https://graphtoy.com/?f1(x,t)=4%20+%204*smoothstep(0,0.7,sin(x+t))&v1=false&f2(x,t)=clamp((atan(((x/10.)%25100)/8-1)*60),%200,%20100)&v2=true&f3(x,t)=sqrt((x/10.)%25100)%20*%208&v3=true&f4(x,t)=((x%20-%20200)/10.)%25100&v4=true&f5(x,t)=(t%20+%20floor(x-t))/2%20-%205&v5=false&f6(x,t)=sin(f5(x,t))%20-%205&v6=false&grid=1&coords=521.7855192792142,66.89164551771165,597.4221734999295) to test and visualise the motion path. 
+After that, other animations were created in a similar approach with different functions, using [Graphtoy](https://graphtoy.com/?f1(x,t)=4%20+%204*smoothstep(0,0.7,sin(x+t))&v1=false&f2(x,t)=clamp((atan(((x/10.)%25100)/8-1)*60),%200,%20100)&v2=true&f3(x,t)=sqrt((x/10.)%25100)%20*%208&v3=true&f4(x,t)=((x%20-%20200)/10.)%25100&v4=true&f5(x,t)=(t%20+%20floor(x-t))/2%20-%205&v5=false&f6(x,t)=sin(f5(x,t))%20-%205&v6=false&grid=1&coords=521.7855192792142,66.89164551771165,597.4221734999295) to test and visualise the motion path. 
 
 ![_](./_assets/vegalite/vegalite-4.png)
 
@@ -165,11 +190,13 @@ I also experimented with creating cross-graph animations, moving an object from 
 ---
 
 
-##### Color tools for Flamegraph
-A small tool I built using Cursor to test color palettes for [Flame Graphs](https://www.brendangregg.com/flamegraphs.html) (a visualization for stack traces of profiled software), based off [Leonardo](https://https://github.com/adobe/leonardo?tab=readme-ov-file), an open source contrast-based color generator.
+##### A color tool for Flame Graphs, 2025
+A small tool I built using Cursor to test colors for [flame graphs](https://www.brendangregg.com/flamegraphs.html), a visualization for stack traces of profiled software. The tool was based on [Leonardo](https://https://github.com/adobe/leonardo?tab=readme-ov-file), an open source contrast-based color generator. However, it couldn't generate the flame graphs very well, so I ended up testing the updated palette directly in our codebase.
 
-Tools: 
-Cursor
 
 **Tools**<br>
-Vega-Lite
+Cursor
+
+![_](./_assets/schoolofma/colors.png)
+
+::link{url="https://flamegraph-colors.pages.dev/"}

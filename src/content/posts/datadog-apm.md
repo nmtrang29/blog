@@ -121,10 +121,8 @@ Armed with insights and a list of clients that were willing to give us feedback 
 
 One key activity during this phase was a user story mapping exercise, which we ran over multiple rounds to align on the scope, priorities, and a shared vision of what we committed to build.
 
-##### Outcome
-![_](./_assets/tracequeries/3.png)
-![Onboarding: Example queries included in the UI based on common use cases reported by customers](./_assets/tracequeries/8.png)
-![Tooltip interaction](./_assets/tracequeries/9.gif)
+![Query editor UI](./_assets/tracequeries/3.png)
+![Onboarding: Example queries based on common use cases reported by customers](./_assets/tracequeries/8.png)
 
 **🎥 Live Demo**
 ::link{url="https://www.youtube.com/live/GjcLWupY0jk?t=3574s"}
