@@ -24,6 +24,13 @@ Audio transcripts (Vietnamese to English):
  
 ---
 
+##### Art-DCGAN, 2018
+Using [Robbie Barrat's art-DCGAN](https://github.com/robbiebarrat/art-DCGAN), a modified implementation of DCGAN focused on generative art, I trained my own model on a dataset of 1700 Ukiyo-e paintings scraped from [Wikiart](https://www.wikiart.org/en/paintings-by-style/ukiyo-e?select=featured).
+
+![_](./_assets/schoolofma/epoch700.png)
+
+---
+
 ##### People with My Name, 2018
 I google-searched my full name and scraped the first 500 image results. From those, I cropped out faces and used [t-SNE](https://lvdmaaten.github.io/tsne/) for dimensionality reduction to cluster similar images. It’s worth noting that Trang Nguyen is a fairly common Vietnamese name. Made possible using [Aarón Montoya-Moraga](https://github.com/montoyamoraga)’s Google Images scraping tool
  and [Andreas Refgaard](https://www.andreasrefsgaard.dk/)’s face-cropping Processing tool.
@@ -78,9 +85,9 @@ Ableton, poseNet, p5.js
 
 ---
 
-##### Ceramics, 2021-2024
+##### Ceramics, 2021-2023
 
-Shifted my focus from working with the computer to working with my hands between 2021 and 2024. My favourite project has been building these little chair sculptures.
+Shifted my focus from working with the computer to working with my hands between 2021 and 2023. My favourite project has been building these little chair sculptures.
 ![_](./_assets/schoolofma/chairs.png)
 
 ---
@@ -154,3 +161,15 @@ I also experimented with creating cross-graph animations, moving an object from 
 ![_](./_assets/vegalite/vegalite-15.gif)
 
 ![Animated graphs displayed inside a Datadog dashboard](./_assets/vegalite/animated-graphs-2.gif)
+
+---
+
+
+##### Color tools for Flamegraph
+A small tool I built using Cursor to test color palettes for [Flame Graphs](https://www.brendangregg.com/flamegraphs.html) (a visualization for stack traces of profiled software), based off [Leonardo](https://https://github.com/adobe/leonardo?tab=readme-ov-file), an open source contrast-based color generator.
+
+Tools: 
+Cursor
+
+**Tools**<br>
+Vega-Lite
