@@ -36,7 +36,7 @@ User interface design for devices and effects for [Beam by Showsync](https://bea
 ---
 
 ##### Frontend Development
-Alongside my design work, I took the initiative to implement some of my designs using [Max/MSP](https://www.ableton.com/en/live/max-for-live/) and a WYSIWYG low-code internal tool. I have also led workshops and taught other designers to use these tools, empowering them to confidently make minor frontend fixes on their own.
+Alongside my design work, I took the initiative to implement some of my designs using [Max/MSP](https://www.ableton.com/en/live/max-for-live/) and a low-code internal tool. I have also led workshops and taught other designers to use these tools, empowering them to confidently make minor frontend fixes on their own.
 
 ![_](./_assets/ableton/max-vieweditor.png)
 
