@@ -47,7 +47,7 @@ After a successful public demo, the project continues to be developed by a dedic
 In 2025, I led the design of Datadog Recommendations, shifting the experience from a reactive model to a more proactive and personalized user flow.
 
 ##### Impact 
-- <mark>Something about the research</mark>
+- Conducted user research to understand user needs and shape the product strategy
 - I facilitated workshops with teams across Database Monitoring, Profiling, and Change Tracking to drive consistency in UX across the platform.
 - The framework I developed was later adopted by other product teams, accelerating their ability to build recommendations and shaping Datadog’s broader guidelines for insights and recommendations.
 
