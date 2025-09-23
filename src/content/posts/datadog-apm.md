@@ -48,7 +48,7 @@ In 2025, I led the design of Datadog Recommendations, shifting the experience fr
 
 ##### Impact 
 - Conducted user research to understand user needs and shape the product strategy
-- I facilitated workshops with teams across Database Monitoring, Profiling, and Change Tracking to drive consistency in UX across the platform.
+- Facilitated workshops with teams across Database Monitoring, Profiling, and Change Tracking to drive consistency in UX across the platform.
 - The framework I developed was later adopted by other product teams, accelerating their ability to build recommendations and shaping Datadog’s broader guidelines for insights and recommendations.
 
 ##### Scope & Team
