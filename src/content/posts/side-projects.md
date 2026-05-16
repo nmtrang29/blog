@@ -186,17 +186,3 @@ I also experimented with creating cross-graph animations, moving an object from 
 ![_](./_assets/vegalite/vegalite-15.gif)
 
 ![Animated graphs displayed inside a Datadog dashboard](./_assets/vegalite/animated-graphs-2.gif)
-
----
-
-
-##### A color tool for Flame Graphs, 2025
-A small tool I built using Cursor to test colors for [flame graphs](https://www.brendangregg.com/flamegraphs.html), a visualization for stack traces of profiled software. The tool was based on [Leonardo](https://https://github.com/adobe/leonardo?tab=readme-ov-file), an open source contrast-based color generator. However, it couldn't generate the flame graphs very well, so I ended up testing the updated palette directly in our codebase.
-
-
-**Tools**<br>
-Cursor
-
-![_](./_assets/schoolofma/colors.png)
-
-::link{url="https://flamegraph-colors.pages.dev/"}
